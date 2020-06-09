@@ -22,7 +22,7 @@ const NewTodo = () => {
 
   return (
     <Form className="newTodo">
-      <div>
+      <div className="todo-input-box">
         <Form.Group controlId="task">
           <Form.Control
             type="text"
